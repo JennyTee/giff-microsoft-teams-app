@@ -1,10 +1,17 @@
-# Botkit Starter Kit
+# Giff
 
-This is a Botkit starter kit for botframework, created with the [Yeoman generator](https://github.com/howdyai/botkit/tree/master/packages/generator-botkit#readme).
+Giff is a Microsoft Teams app that provides that magical feature that Slack and HipChat (RIP) have/had...a random gif generator!
 
-To complete the configuration of this bot, make sure to update the included `.env` file with your platform tokens and credentials.
+Giff can be installed to a Microsoft Teams channel. To get a random gif, tag Giff and type in a word or phrase that indicates what sort of gif you are looking for.
 
-[Botkit Docs](https://botkit.ai/docs/v4)
+Examples:
 
-This bot is powered by [a folder full of modules](https://botkit.ai/docs/v4/core.html#organize-your-bot-code). 
-Edit the samples, and add your own in the [features/](features/) folder.
+@giff you rule
+@giff thank you
+@giff earl gray hot
+
+The Giff bot will reply with a random gif provided by the Giphy API.
+
+Updates may be made to this code to set the rating of the gifs returned. (Use with caution!)
+
+Have fun!
